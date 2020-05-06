@@ -5,7 +5,7 @@ This module will create Virtual Network Gateway on Azure with associated public 
 ## Parameters
 
 |Name|Type|Description|Default|
-|:-|:-:|:-|:-:|
+|----|----|-----------|-------|
 |name|string|Name used for all the resources|-|
 |location|string|Location where to deploy resources|-|
 |resource_group_name|string|Resource group into which to deploy the resources|-|
@@ -21,7 +21,7 @@ This module will create Virtual Network Gateway on Azure with associated public 
 ***Connections*** parameter accepts a map of objects where each object has the following atributes:
 
 |Name|Type|Description|
-|:-|:-:|:-|
+|----|----|-----------|
 |gateway_address|string|Address of the Local network gateway|
 |address_space|list(string)|IP prefixes which will be accessed through the VPN connection|
 |shared_key|string|Pre-shared key used to establish IPsec VPN connection|
